@@ -107,7 +107,6 @@ button {
   display: flex;
   height: 298px;
   flex-direction: column;
-  row-gap: 30px;
   margin-top: 26px;
   overflow: auto;
   position: relative;
@@ -165,17 +164,6 @@ button {
     &:hover {
       text-decoration: underline;
     }
-
-   /* &:focus {
-      border: none;
-      outline: none;
-    }
-
-    &:focus-visible {
-      outline: 1px solid currentColor;
-      outline-offset: 1px;
-      border-radius: 0px;
-    }*/
 }
 
 .content__list-item {
@@ -227,7 +215,6 @@ button {
 .content__card-link {
   display: block;
   margin-bottom: 30px;
-  /*margin: 2px 2px 2px 2px;*/
   color: white;
 }
 
@@ -338,7 +325,3 @@ button {
 /*.content__list-item:not(:last-child) {
   margin-bottom: 15px;
 }*/
-
-li:not(:last-child) {
-  margin-bottom: 5px;
-}
